@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Local test outputs
+*_cuts/
+*_markers.edl
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Generated icons (rebuilt from assets/icon.svg)
+assets/icon.png
+assets/icon.icns
+assets/*.iconset/

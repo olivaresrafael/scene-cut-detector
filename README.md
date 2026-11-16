@@ -1,5 +1,7 @@
 # Scene Cut Detector
 
+**Website and download: [olivaresrafael.github.io/scene-cut-detector](https://olivaresrafael.github.io/scene-cut-detector/)**
+
 A small macOS app that finds every scene cut in a video and exports the result
 for **DaVinci Resolve** (and other editors). Drop a video, click **Detect
 Cuts**, and get a cut timeline, timeline markers, an EDL, a CSV and a readable

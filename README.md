@@ -15,6 +15,10 @@ report.
 - **Resolve-ready**: FCPXML cut timeline, marker EDL, CMX3600 cut EDL, CSV and
   TXT outputs.
 
+> **Status: beta (v2.0.0-beta.1).** The GUI and all export formats are usable
+> and tested, but this is an early public release. Feedback and bug reports are
+> welcome in the [issue tracker](https://github.com/olivaresrafael/scene-cut-detector/issues).
+
 ---
 
 ## Quick start (macOS)
@@ -186,7 +190,8 @@ scene-cut-detector/
 ├── make_icon.py                    # generates the .icns from assets/icon.svg
 ├── assets/
 │   └── icon.svg
-└── README.md
+├── README.md
+└── LICENSE
 ```
 
 ## Troubleshooting
@@ -216,3 +221,10 @@ scene-cut-detector/
 - Drop-frame timecode (29.97, 59.94) is supported in EDL and marker EDL
   exports.
 - Tested with PySceneDetect 0.7.3, OpenCV 4.14 and PySide6 6.x on macOS.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
+
+Copyright © 2026 Rafael Olivares.
+

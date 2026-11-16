@@ -35,7 +35,7 @@ from pathlib import Path
 from typing import Iterable, Optional
 from xml.etree import ElementTree as ET
 
-VERSION = "2.0.0"
+VERSION = "2.0.0-beta.1"
 
 VIDEO_EXTENSIONS = {
     ".mp4", ".mov", ".m4v", ".mkv", ".avi", ".mxf", ".mts", ".m2ts",
